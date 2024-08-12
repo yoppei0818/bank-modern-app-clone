@@ -1,4 +1,13 @@
 import {
+  NavLink,
+  Feature,
+  Feedback,
+  Stat,
+  FooterLink,
+  SocialMedia,
+  Client,
+} from "../type";
+import {
   people01,
   people02,
   people03,
@@ -15,7 +24,7 @@ import {
   star,
 } from "../assets";
 
-export const navLinks = [
+export const navLinks: NavLink[] = [
   {
     id: "home",
     title: "Home",
@@ -34,7 +43,7 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const features: Feature[] = [
   {
     id: "feature-1",
     icon: star,
@@ -58,7 +67,7 @@ export const features = [
   },
 ];
 
-export const feedback = [
+export const feedback: Feedback[] = [
   {
     id: "feedback-1",
     content:
@@ -85,7 +94,7 @@ export const feedback = [
   },
 ];
 
-export const stats = [
+export const stats: Stat[] = [
   {
     id: "stats-1",
     title: "User Active",
@@ -103,7 +112,7 @@ export const stats = [
   },
 ];
 
-export const footerLinks = [
+export const footerLinks: FooterLink[] = [
   {
     title: "Useful Links",
     links: [
@@ -169,7 +178,7 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
+export const socialMedia: SocialMedia[] = [
   {
     id: "social-media-1",
     icon: instagram,
@@ -192,7 +201,7 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+export const clients: Client[] = [
   {
     id: "client-1",
     logo: airbnb,
